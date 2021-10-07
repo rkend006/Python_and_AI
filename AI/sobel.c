@@ -23,7 +23,7 @@ char **argv;
     // Code for command-line programming.
     argc--; argv++; foobar = *argv; fp1=fopen(foobar,"rb");
 
-	argc--; argv++; foobar = *argv; fo1=fopen(foobar,"wb");
+    argc--; argv++; foobar = *argv; fo1=fopen(foobar,"wb");
 
     argc--; argv++; foobar = *argv; fo2=fopen(foobar,"wb");
 
